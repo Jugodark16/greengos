@@ -30,12 +30,12 @@
     <main class="container">
         
         <section id="breakfast" class="category">
-            <h2 class="section-title">🍳 Breakfast <span class="subtitle">7:30 - 11:00 AM</span></h2>
+            <h2 class="section-title">🍳 Breakfast <span class="time-badge">7:30 - 11:00 AM</span></h2>
             
             <article class="menu-item featured-item">
                 <div class="item-header">
                     <span class="name">Shakshuka (House Special)</span>
-                    <span class="price">Q59</span>
+                    <span class="price">Q49</span>
                 </div>
                 <p class="description">Two eggs soft-poached in spiced tomato & pepper sauce. Served with a side of tahini & warm pita breads. <br><strong>*AVAILABLE ALL DAY*</strong></p>
                 <div class="badge">Must Try!</div>
@@ -91,7 +91,16 @@
         </section>
 
         <section id="lunch-dinner" class="category">
-            <h2 class="section-title">🍔 Lunch & Dinner</h2>
+            <h2 class="section-title">🍔 Lunch & Dinner <span class="time-badge">11:00 AM - 9:30 PM</span></h2>
+            
+            <article class="menu-item featured-item">
+                <div class="item-header">
+                    <span class="name">Shakshuka (House Special)</span>
+                    <span class="price">Q49</span>
+                </div>
+                <p class="description">Two eggs soft-poached in spiced tomato & pepper sauce. Served with a side of tahini & warm pita breads. <br><strong>*AVAILABLE ALL DAY*</strong></p>
+                <div class="badge">Must Try!</div>
+            </article>
             
             <h3>Wraps</h3>
             <div class="grid-items">
@@ -117,7 +126,7 @@
                 </article>  
                
                 <article class="menu-item featured-accent"> 
-                    <div class="item-header"><span class="name">Picanha Beef Wrap</span><span class="price">Q82</span></div>
+                    <div class="item-header"><span class="name">Americano Wrap</span><span class="price">Q82</span></div>
                     <p class="description">Picanha beef, Doritos, Cheese, Lettuce, Onion, Tomato & Aioli.</p>
                 </article>
             </div>
@@ -158,21 +167,21 @@
             <article class="menu-item">
                 <div class="item-header"><span class="name">Hawaiiana</span><span class="price">Q67</span></div>
                 <div class="options-box">
-                    <p class="description">Turkey-Ham, Pineapple, Mozzarella and Tomato Sauce.</p>              
+                    <p class="description">Turkey-Ham, Pineapple, Mozza and Tomato Sauce.</p>              
                 </div>
             </article>      
             
             <article class="menu-item">
                 <div class="item-header"><span class="name">BBQ Chicken</span><span class="price">Q72</span></div>
                 <div class="options-box">
-                    <p class="description">Chicken Breast, Red Onion, Mozzarella Cheese & BBQ Sauce.</p>              
+                    <p class="description">Chicken Breast, Red Onion, Mozza & BBQ Sauce.</p>              
                 </div>
             </article>
 
             <article class="menu-item">
                 <div class="item-header"><span class="name">Picanha Beef</span><span class="price">Q82</span></div>
                 <div class="options-box">
-                    <p class="description">Picanha Beef, French Fries, Mozzarella Cheese and Tomato Sauce.</p>              
+                    <p class="description">Picanha Beef, French Fries, Mozza Cheese and Tomato Sauce.</p>              
                 </div>
             </article>
             
@@ -273,8 +282,9 @@
                 </div>
             </article>
             
-            <div class="item-header"><span>Potato Wedges</span><span class="price">Q40</span></div>
-            
+            <article class="menu-item">
+                <div class="item-header"><span>Potato Wedges</span><span class="price">Q40</span></div>
+            </article>
             
             <article class="menu-item">
                 <div class="item-header"><span>Panini</span><span class="price">Q30</span></div>
@@ -287,9 +297,17 @@
         </section>
 
         <section id="togo" class="category">
-            <h2 class="section-title">🏃‍♂️ TO GO <span class="subtitle">Lunchboxes</span></h2>
+            <h2 class="section-title">🏃‍♂️ TO GO <span class="time-badge">TO GO Only</span></h2>
             <p class="description">Grab your lunch before heading to the caves or Semuc Champey!</p>
 
+            <article class="menu-item combo-item">
+                <div class="item-header">
+                    <span class="name">Adventure Combo 🎒</span>
+                    <span class="price">Q40</span>
+                </div>
+                <p class="description">Includes any Sandwich or Panini + Soda or Juice.</p>
+                <div class="badge-promo">Best Value</div>
+            </article>
 
             <h3>Sandwiches & More</h3>
             <div class="simple-list">
@@ -307,13 +325,155 @@
         </section>
 
         <section id="drinks" class="category alcohol">
-            <h2 class="section-title">🍹 Drinks & Bar</h2>
+            <h2 class="section-title">🍹 Drinks & Bar <span class="time-badge">All Day</span></h2>
             <h3>Soft Drinks</h3>
-            <div class="simple-item"><span>Jamaica / Horchata / Cacao</span><span class="price">Q20</span></div>
-            <div class="simple-item"><span>Lipton Tea (Lemon/Raspberry/Peach)</span><span class="price">Q15</span></div>
-            <div class="simple-item"><span>Sodas / Juices</span><span class="price">Q12</span></div>
-            <div class="featured-box">
-                
+            <div class="drink-box">
+                <div class="simple-item"><span>Hibiscus Flower / Lemonade</span><span class="price">Q20</span></div>
+                <div class="simple-item"><span>Lipton Tea (Lemon/Raspberry/Peach)</span><span class="price">Q15</span></div>
+            </div>
+            
+            <h4>Sodas</h4>
+            <div class="drink-box">
+                <div class="simple-item"><span>Pepsi Black</span><span class="price">Q15</span></div>
+                <div class="simple-item"><span>7up</span><span class="price">Q12</span></div>
+                <div class="simple-item"><span>CocaCola</span><span class="price">Q12</span></div>
+                <div class="simple-item"><span>CocaCola Zero</span><span class="price">Q15</span></div>
+                <div class="simple-item"><span>Sparkling Water</span><span class="price">Q12</span></div>
+                <div class="simple-item"><span>Ginger Ale</span><span class="price">Q12</span></div>
+            </div>
+            
+            <h4>Gatorade</h4>
+            <div class="drink-box">
+                <div class="simple-item"><span>Gatorade (Grape / Orange / Fruit Punch)</span><span class="price">Q15</span></div>
+            </div>
+            
+            <h4>Electrolyte Drinks</h4>
+            <div class="drink-box">
+                <div class="simple-item"><span>Hidravida Electrolyte Drink</span><span class="price">Q30</span></div>
+            </div>
+            
+            <h4>Water</h4>
+            <div class="drink-box">
+                <div class="simple-item"><span>Bottle Water</span><span class="price">Q12</span></div>
+            </div>
+            
+            <h4>DelValle Juices</h4>
+            <div class="drink-box">
+                <div class="simple-item"><span>Del Valle Juices (Pear / Peach / Mango / Guava / Apple)</span><span class="price">Q12</span></div>
+            </div>
+            <h3>☕ Coffee & Espresso</h3>
+            <div class="drink-box">
+                <article class="menu-item featured-item">
+                    <div class="item-header">
+                        <span class="name">Greengos House Coffee</span>
+                        <span class="price">Q20</span>
+                    </div>
+                    <p class="description">Nueve Aguas coffee since 1900, place Purulha, Baja Verapaz, altura 1200-1600msnm, perfil de taza con aroma a chocolate, sabor a manzana y toronja, acidez citrica, posgusto prolongado, cuerpo completo.</p>
+                    <div class="badge">Local Beans!</div>
+                </article>
+
+                <div class="grid-items">
+                    <article class="menu-item">
+                        <div class="item-header"><span class="name">Espresso</span><span class="price">Q15</span></div>
+                        <p class="description">Single shot of pure intensity.</p>
+                    </article>
+                    
+                    <article class="menu-item">
+                        <div class="item-header"><span class="name">Americano</span><span class="price">Q20</span></div>
+                        <p class="description">Espresso with hot water.</p>
+                    </article>
+                    
+                    <article class="menu-item">
+                        <div class="item-header"><span class="name">Cappuccino</span><span class="price">Q27</span></div>
+                        <p class="description">Espresso, steamed milk, and foam.</p>
+                    </article>
+                    
+                    <article class="menu-item">
+                        <div class="item-header"><span class="name">Latte</span><span class="price">Q27</span></div>
+                        <p class="description">Espresso with velvety steamed milk.</p>
+                    </article>
+                    
+                    <article class="menu-item">
+                        <div class="item-header"><span class="name">Mocha</span><span class="price">Q30</span></div>
+                        <p class="description">Espresso, chocolate, and steamed milk.</p>
+                    </article>
+                    
+                    <article class="menu-item">
+                        <div class="item-header"><span class="name">Flat White</span><span class="price">Q30</span></div>
+                        <p class="description">Double espresso with microfoam milk.</p>
+                    </article>
+                </div>
+            </div>
+
+<h4>☃️ Iced Coffee</h4>
+<div class="drink-box">
+    <div class="simple-item"><span>Iced Coffee</span><span class="price">Q22</span></div>
+    <div class="simple-item"><span>Iced Latte</span><span class="price">Q28</span></div>
+    <div class="simple-item"><span>Cold Brew</span><span class="price">Q25</span></div>
+    <div class="simple-item"><span>Iced Mocha</span><span class="price">Q32</span></div>
+</div>
+
+<h4>Our Drinks Menu</h4>
+<div class="drink-box">
+    <div class="grid-items">
+        <article class="menu-item drink-morenitto">
+            <div class="item-header">
+                <span class="name">Morenitto</span>
+                <span class="price">Q22</span>
+            </div>
+        </article>
+
+        <article class="menu-item drink-pbb">
+            <div class="item-header">
+                <span class="name">PBB Flat</span>
+                <span class="price">Q28</span>
+            </div>
+        </article>
+
+        <article class="menu-item drink-coffito">
+            <div class="item-header">
+                <span class="name">Coffito</span>
+                <span class="price">Q25</span>
+            </div>
+        </article>
+
+        <article class="menu-item drink-noa">
+            <div class="item-header">
+                <span class="name">NoaNoa</span>
+                <span class="price">Q32</span>
+            </div>
+        </article>
+    </div>
+    <div class="creator-credit" style="margin-top: 15px; text-align: center;">
+        <span class="by">Created by:</span>
+        <a href="https://www.instagram.com/eduardo_gonzalezfito/" target="_blank" class="creator-link">
+            @eduardo_gonzalesfito
+        </a>
+    </div>
+</div>
+
+
+<h3>Hot Drinks</h3>
+<div class="drink-box">
+    <div class="simple-item"><span>Hot Chocolate</span><span class="price">Q22</span></div>
+    <div class="simple-item"><span>Hot Chocolate with Marshmallows</span><span class="price">Q28</span></div>
+    <div class="simple-item"><span>Hot Chocolate with Whipped Cream</span><span class="price">Q25</span></div>
+    <div class="simple-item"><span>Hot Chocolate with Marshmallows and Whipped Cream</span><span class="price">Q32</span></div>
+</div>
+
+
+<div class="featured-box">
+    <h4>🌟 Customize Your Coffee</h4>
+    <p class="description"><strong>Make it yours:</strong></p>
+    <div class="tags">
+    
+        <span class="tag">Oat Milk +Q5</span>
+        <span class="tag">Almond Milk +Q5</span>
+        <span class="tag">Soy Milk +Q5</span>
+        <span class="tag">Caramel +Q4</span>
+    </div>
+</div>
+
             
             <div class="featured-box">
     <h4>🍓 Fresh Smoothies <span class="price">Q35</span></h4>
@@ -340,72 +500,88 @@
         </article>
     </div>
 </div>
-            
-            
-            </div>
                 
                 <h3>Signature Cocktails & Bar</h3>
-
+                <div class="drink-box">
     <div class="grid-items">
 
-        <article class="menu-item featured-accent">
-    
-    
-    
-    
+        <article class="menu-item cocktail-mero">
             <div class="item-header">
-        <span class="name">EL MERO MERO</span>
-        <span class="price">Q50</span>
-    
-    </div>
-    <p class="description">A unique house-made maceration of local peanuts (mani) and roasted cacao beans. Bold, nutty, and authentic.</p>
-    
-    <div class="creator-credit">
-        <span class="by">Created by:</span>
-        <a href="https://instagram.com/alexandra__molina" target="_blank" class="creator-link">
-            @alexandra__molina
-        </a>
-    </div>
+                <span class="name">EL MERO MERO</span>
+                <span class="price">Q45</span>
+            </div>
+            <p class="description">A unique house-made maceration of local peanuts (mani) and roasted cacao beans. Bold, nutty, and authentic.</p>
+            <div class="creator-credit">
+                <span class="by">Created by:</span>
+                <a href="https://instagram.com/alexandra__molina" target="_blank" class="creator-link">
+                    @alexandra__molina
+                </a>
+            </div>
+        </article>
 
-</article>
-
-    <article class="menu-item">
+    <article class="menu-item cocktail-monkey">
         <div class="item-header">
             <span class="name">Funky Monkey</span>
-            <span class="price">Q50</span>
+            <span class="price">Q45</span>
         </div>
         <p class="description">A smooth tropical dream. House-made banana syrup blended with milk and premium Dark Rum.</p>
+        <div class="creator-credit">
+            <span class="by">Created by:</span>
+            <a href="https://instagram.com/alexandra__molina" target="_blank" class="creator-link">
+                @alexandra__molina
+            </a>
+        </div>
     </article>
 
-    <article class="menu-item">
+    <article class="menu-item cocktail-cardamon">
         <div class="item-header">
             <span class="name">Cardamon Crush</span>
-            <span class="price">Q50</span>
+            <span class="price">Q45</span>
         </div>
         <p class="description">Gin, tonic, and locally sourced cardamom with a slice of cucumber. Cool and botanical.</p>
+        <div class="creator-credit">
+            <span class="by">Created by:</span>
+            <a href="https://instagram.com/alexandra__molina" target="_blank" class="creator-link">
+                @alexandra__molina
+            </a>
+        </div>
     </article>
 
-    <article class="menu-item">
+    <article class="menu-item cocktail-coco">
         <div class="item-header">
             <span class="name">Coco Manglar</span>
-            <span class="price">Q50</span>
+            <span class="price">Q45</span>
         </div>
         <p class="description">Coconut water, mango and white rum.</p>
+        <div class="creator-credit">
+            <span class="by">Created by:</span>
+            <a href="https://instagram.com/alexandra__molina" target="_blank" class="creator-link">
+                @alexandra__molina
+            </a>
+        </div>
     </article>
 
-    <article class="menu-item">
+    <article class="menu-item cocktail-selva">
         <div class="item-header">
             <span class="name">Selva Rosa</span>
-            <span class="price">Q50</span>
+            <span class="price">Q45</span>
         </div>
         <p class="description">Gin, fresh watermelon, and coconut cream. Tropical bliss in a glass.</p>
+        <div class="creator-credit">
+            <span class="by">Created by:</span>
+            <a href="https://instagram.com/alexandra__molina" target="_blank" class="creator-link">
+                @alexandra__molina
+            </a>
+        </div>
     </article>
-</div>    
+    </div>
+                </div>
                    
                 
                 <header class="grid-description">
                     <p class="description"><strong>Beers</strong></p>
                 </header>
+                <div class="drink-box">
                 <article class="menu-item">
                     <div class="item-header"><span class="name">Gallo</span><span class="price">Q25</span></div>
                 </article>
@@ -436,7 +612,8 @@
 
                 <article class="menu-item">
                     <div class="item-header"><span class="name">Dorada Ice</span><span class="price">Q17</span></div>
-                </article>  
+                </article>
+                </div>
                
             <div class="happy-hour">
                 <h4>⚡ HAPPY HOUR for Beers and Mix Drinks(3pm/6pm)</h4>
@@ -446,6 +623,7 @@
         <header class="grid-description">
                     <p class="description"><strong>Craft Beers</strong></p>
                 </header>
+                <div class="drink-box">
                 <article class="menu-item">  
                     <div class="item-header"><span class="name">Chelita Linda - Blonde Ale / ABV 5.1%</span><span class="price">Q35</span></div>
                 </article>
@@ -460,17 +638,17 @@
 
                 <article class="menu-item">
                     <div class="item-header"><span class="name">Pinchazo - Imperial Stout / ABV 8.2%</span><span class="price">Q35</span></div>
-                </article>  
+                </article>
+                </div>
             
 
                 <header class="grid-description">
                     <p class="description"><strong>ACE Cider</strong></p>
                 </header>
-
+                <div class="drink-box">
                 <article class="menu-item">
                     <div class="item-header"><span class="name">Apple</span><span class="price">Q35</span></div>
                 </article>
-
 
                 <article class="menu-item">
                     <div class="item-header"><span class="name">Guava</span><span class="price">Q35</span></div>
@@ -480,14 +658,15 @@
                     <div class="item-header"><span class="name">Mango</span><span class="price">Q35</span></div>
                 </article>
 
-
                 <article class="menu-item">
                     <div class="item-header"><span class="name">Berries</span><span class="price">Q35</span></div>
                 </article>
+                </div>
 
                 <header class="grid-description">
                     <p class="description"><strong>OFF-SHORE</strong></p>
                 </header>
+                <div class="drink-box">
                 <article class="menu-item">
                     <div class="item-header"><span class="name">Maracuya</span><span class="price">Q30</span></div>
                 </article>
@@ -502,13 +681,13 @@
 
                 <article class="menu-item">
                     <div class="item-header"><span class="name">Pineapple-Coco</span><span class="price">Q30</span></div>
-                </article>  
-            </div>
+                </article>
+                </div>
         
         </section>
 
         <section id="desserts" class="category">
-            <h2 class="section-title">🍰 Desserts</h2>
+            <h2 class="section-title">🍰 Desserts <span class="time-badge">All Day</span></h2>
     
     <article class="menu-item">
         <div class="item-header"><span>Banutzza</span><span class="price">Q65</span></div>
@@ -516,17 +695,17 @@
     </article>
 
     <article class="menu-item">
-        <div class="item-header"><span>Jan Sweets</span><span class="price">Q75</span></div>
+        <div class="item-header"><span>Jan Sweets</span><span class="price">Q35</span></div>
         <p class="description">Mini donuts coated in sugar, topped with chocolate, caramel, and strawberry syrup. Served with a scoop of ice cream.</p>
     </article>
 
     <article class="menu-item">
-        <div class="item-header"><span>Hummustella</span><span class="price">Q70</span></div>
+        <div class="item-header"><span>Hummustella</span><span class="price">Q45</span></div>
         <p class="description">A creamy blend of Nutella and peanut butter, topped with chocolate. Served with warm pita bread.</p>
     </article>
 
     <article class="menu-item">
-        <div class="item-header"><span>Chocolate Balls</span><span class="price">Q15</span></div>
+        <div class="item-header"><span>Chocolate Balls</span><span class="price">Q25</span></div>
         <p class="description">Homemade Chocolate Balls (The classic treat!).</p>
     </article>
 
@@ -537,8 +716,6 @@
             <ul><li>Chocolate</li><li>Strawberry</li><li>Caramel</li></ul>
         </div>
     </article>
-</section>
-            </article>
         </section>
     </main>
 
