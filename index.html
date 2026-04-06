@@ -4,110 +4,124 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Greengos Hostel | Digital Menu</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+    <meta name="description" content="Digital menu of Greengos Hostel in Semuc Champey, Guatemala. Breakfast, lunch, cocktails and more.">
+    <meta property="og:title" content="Greengos Hostel | Digital Menu">
+    <meta property="og:description" content="Fresh ingredients • Jungle vibes">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header class="hero">
-        <div class="overlay">
-            <h1>Greengos Menu</h1>
-            <p>Fresh Ingredients • Jungle Vibes</p>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Greengos</h1>
+            <p class="tagline">Fresh Ingredients • Jungle Vibes</p>
         </div>
     </header>
 
     <nav class="sticky-nav">
         <div class="nav-container">
-            <a href="#breakfast">🍳 Breakfast</a>
-            <a href="#lunch-dinner">🍔 Lunch</a>
-            <a href="#togo">🏃‍♂️ To Go</a>
-            <a href="#drinks">🍹☕️ Drinks</a>
-            <a href="#desserts">🍰 Desserts</a>
-
+            <a href="#breakfast">Breakfast</a>
+            <a href="#lunch-dinner">Lunch</a>
+            <a href="#togo">To Go</a>
+            <a href="#drinks">Drinks</a>
+            <a href="#desserts">Desserts</a>
         </div>
     </nav>
 
     <main class="container">
         
         <section id="breakfast" class="category">
-            <h2 class="section-title">🍳 Breakfast <span class="time-badge">7:30 - 11:00 AM</span></h2>
+            <h2 class="section-title">
+                <span>Breakfast</span>
+                <span class="time-badge">7:30 - 11:00</span>
+            </h2>
             
             <article class="menu-item featured-item">
                 <div class="item-header">
-                    <span class="name">Shakshuka (House Special)</span>
+                    <span class="name">Shakshuka <span class="badge">House Special</span></span>
                     <span class="price">Q49</span>
                 </div>
-                <p class="description">Two eggs soft-poached in spiced tomato & pepper sauce. Served with a side of tahini & warm pita breads. <br><strong>*AVAILABLE ALL DAY*</strong></p>
-                <div class="badge">Must Try!</div>
+                <p class="description">Two eggs soft-poached in spiced tomato & pepper sauce. Served with a side of tahini & warm pita breads.</p>
             </article>
 
             <article class="menu-item">
-                <div class="item-header"><span class="name">Avocado Toast Special</span><span class="price">Q49</span></div>
+                <div class="item-header">
+                    <span class="name">Avocado Toast</span>
+                    <span class="price">Q49</span>
+                </div>
+                <p class="description">Smashed avocado on toast, topped with two eggs and served with fresh fruit.</p>
                 <div class="options-box">
-                    <strong>Choose your eggs:</strong>
-                    <ul><li>Scrambled</li><li>Sunny Side Up</li><li>Fried Well Done</li></ul>
-                    <p class="description">Smashed avocado on toast, topped with two eggs and served with fresh fruit.</p>
+                    <span class="option-label">Choose your eggs:</span>
+                    <span class="tag">Scrambled</span>
+                    <span class="tag">Sunny Side Up</span>
+                    <span class="tag">Fried</span>
                 </div>
             </article>
             
             <article class="menu-item">
-                <div class="item-header"><span class="name">Burrito</span><span class="price">Q45</span></div>
-                <div class="options-box">
-                    <strong>Options</strong>
-                    <ul><li>With Cheese</li><li>Without Cheese</li></ul>
-                    <p class="description">Flour Tortilla stuffed with scrambled eggs, black beans, rice, pico de gallo, cheese and lettuce.</p>
+                <div class="item-header">
+                    <span class="name">Burrito</span>
+                    <span class="price">Q45</span>
                 </div>
+                <p class="description">Flour tortilla stuffed with scrambled eggs, black beans, rice, pico de gallo, cheese and lettuce.</p>
             </article>
 
             <article class="menu-item">
-                <div class="item-header"><span class="name">Desayuno Típico</span><span class="price">Q45</span></div>
-                <div class="options-box">
-                    <strong>Choose your eggs:</strong>
-                    <ul><li>Scrambled</li><li>Sunny Side Up</li><li>Fried Well Done</li></ul>
-                    <p class="description">Two eggs any style, black beans, small fruit, fresh cheese and fresh bread.</p>  
+                <div class="item-header">
+                    <span class="name">Typical Guatemalan Breakfast</span>
+                    <span class="price">Q45</span>
                 </div>
+                <p class="description">Two eggs any style, black beans, small fruit, fresh cheese and fresh bread.</p>
             </article>
             
             <article class="menu-item">
-                <div class="item-header"><span class="name">Breakfast Quesadilla</span><span class="price">Q52</span></div>
-                <div class="options-box">
-                    <p class="description">Scrambled eggs, cheese, and sausage grilled inside a flour tortilla.</p>             
+                <div class="item-header">
+                    <span class="name">Breakfast Quesadilla</span>
+                    <span class="price">Q52</span>
                 </div>
+                <p class="description">Scrambled eggs, cheese, and sausage grilled inside a flour tortilla.</p>
             </article>
             
             <article class="menu-item">
-                <div class="item-header"><span class="name">Waffles & Fruit Bowl</span><span class="price">Q55</span></div>
-                <div class="options-box">
-                    <p class="description">Two thick home-style waffles, served with fresh fruit and maple syrup.</p>              
+                <div class="item-header">
+                    <span class="name">Waffles & Fruit Bowl</span>
+                    <span class="price">Q55</span>
                 </div>
+                <p class="description">Two thick home-style waffles, served with fresh fruit and maple syrup.</p>
             </article>
             
             <article class="menu-item">
-                <div class="item-header"><span class="name">Granola Bowl</span><span class="price">Q58</span></div>
-                <div class="options-box">
-                    <p class="description">House-made yogurt, seasonal fruit, nuts and granola.</p>              
+                <div class="item-header">
+                    <span class="name">Granola Bowl</span>
+                    <span class="price">Q58</span>
                 </div>
+                <p class="description">House-made yogurt, seasonal fruit, nuts and granola.</p>
             </article>
         </section>
 
         <section id="lunch-dinner" class="category">
-            <h2 class="section-title">🍔 Lunch & Dinner <span class="time-badge">11:00 AM - 9:30 PM</span></h2>
+            <h2 class="section-title">
+                <span>Lunch & Dinner</span>
+                <span class="time-badge">11:00 - 21:30</span>
+            </h2>
             
-            <article class="menu-item featured-item">
-                <div class="item-header">
-                    <span class="name">Shakshuka (House Special)</span>
-                    <span class="price">Q49</span>
-                </div>
-                <p class="description">Two eggs soft-poached in spiced tomato & pepper sauce. Served with a side of tahini & warm pita breads. <br><strong>*AVAILABLE ALL DAY*</strong></p>
-                <div class="badge">Must Try!</div>
-            </article>
+            <div class="grid-items">
+                <article class="menu-item featured-item">
+                    <div class="item-header">
+                        <span class="name">Shakshuka <span class="badge">All Day</span></span>
+                        <span class="price">Q49</span>
+                    </div>
+                    <p class="description">Two eggs soft-poached in spiced tomato & pepper sauce. Served with a side of tahini & warm pita breads.</p>
+                </article>
+            </div>
             
             <h3>Wraps</h3>
             <div class="grid-items">
-                
-                <header class="grid-description">
-                    <p class="description"><strong>House Wrap stuffed with your protein choice, hummus, tahini, finely chopped-salad, and crispy fries.</strong></p>
-                </header>
+                <div class="grid-description">
+                    <p>House wrap stuffed with your protein choice, hummus, tahini, finely chopped salad, and crispy fries.</p>
+                </div>
                
                 <article class="menu-item">
                     <div class="item-header"><span class="name">Chicken Schnitzel</span><span class="price">Q65</span></div>
@@ -126,116 +140,88 @@
                 </article>  
                
                 <article class="menu-item featured-accent"> 
-                    <div class="item-header"><span class="name">Americano Wrap</span><span class="price">Q82</span></div>
+                    <div class="item-header">
+                        <span class="name">Americano Wrap</span>
+                        <span class="price">Q82</span>
+                    </div>
                     <p class="description">Picanha beef, Doritos, Cheese, Lettuce, Onion, Tomato & Aioli.</p>
                 </article>
             </div>
             
             <h3>Fresh Pizzas</h3>     
             
-            <article class="menu-item featured-item">
-                <div class="item-header">
-                    <span class="name">Pizza Greengos (House Special)</span>
-                    <span class="price">Q67</span>
-                </div>
-                <p class="description">Kalamata Olives, Za'atar Spice, Mozzarella Cheese, Butter and olive oil base.  </p>
-                <div class="badge">Must Try!</div>
-            </article>
-            
-            
-            <article class="menu-item">
-                <div class="item-header"><span class="name">Margarita</span><span class="price">Q60</span></div>
-                <div class="options-box">
-                    <p class="description">Mozzarella Cheese, Tomatoes, Fresh Basil and Tomato Sauce.</p>             
-                </div>
-            </article>
-            
-            <article class="menu-item">
-                <div class="item-header"><span class="name">Veggie</span><span class="price">Q67</span></div>
-                <div class="options-box">
-                    <p class="description">Bell peppers, Broccoli, Onion, Sweet Corn, Black Olives, Mozza Cheese & Tomato Sauce.</p>              
-                </div>
-            </article>
-            
-            <article class="menu-item">
-                <div class="item-header"><span class="name">Cheese</span><span class="price">Q57</span></div>
-                <div class="options-box">
-                    <p class="description">Mozzarella Cheese and Tomato Sauce.</p>              
-                </div>
-            </article>
-            
-            <article class="menu-item">
-                <div class="item-header"><span class="name">Hawaiiana</span><span class="price">Q67</span></div>
-                <div class="options-box">
-                    <p class="description">Turkey-Ham, Pineapple, Mozza and Tomato Sauce.</p>              
-                </div>
-            </article>      
-            
-            <article class="menu-item">
-                <div class="item-header"><span class="name">BBQ Chicken</span><span class="price">Q72</span></div>
-                <div class="options-box">
-                    <p class="description">Chicken Breast, Red Onion, Mozza & BBQ Sauce.</p>              
-                </div>
-            </article>
+            <div class="grid-items">
+                <article class="menu-item featured-item">
+                    <div class="item-header">
+                        <span class="name">Pizza Greengos <span class="badge">Popular</span></span>
+                        <span class="price">Q67</span>
+                    </div>
+                    <p class="description">Kalamata olives, Za'atar spice, Mozzarella cheese, butter and olive oil base.</p>
+                </article>
+                
+                <article class="menu-item">
+                    <div class="item-header"><span class="name">Margherita</span><span class="price">Q60</span></div>
+                    <p class="description">Mozzarella cheese, tomatoes, fresh basil and tomato sauce.</p>
+                </article>
+                
+                <article class="menu-item">
+                    <div class="item-header"><span class="name">Veggie</span><span class="price">Q67</span></div>
+                    <p class="description">Bell peppers, broccoli, onion, sweet corn, black olives, mozza cheese & tomato sauce.</p>
+                </article>
+                
+                <article class="menu-item">
+                    <div class="item-header"><span class="name">Hawaiian</span><span class="price">Q67</span></div>
+                    <p class="description">Turkey-ham, pineapple, mozza and tomato sauce.</p>
+                </article>      
+                
+                <article class="menu-item">
+                    <div class="item-header"><span class="name">BBQ Chicken</span><span class="price">Q72</span></div>
+                    <p class="description">Chicken breast, red onion, mozza & BBQ sauce.</p>
+                </article>
 
-            <article class="menu-item">
-                <div class="item-header"><span class="name">Pepperoni </span><span class="price">Q69</span></div>
-                <div class="options-box">
-                    <p class="description">Pepperoni, Mozzarella and Tomato sauce.</p>              
-                </div>
-            </article>
-
-            
-            <article class="menu-item">
-                <div class="item-header"><span class="name">Picanha Beef</span><span class="price">Q82</span></div>
-                <div class="options-box">
-                    <p class="description">Picanha Beef, French Fries, Mozza Cheese and Tomato Sauce.</p>              
-                </div>
-            </article>
-            
+                <article class="menu-item">
+                    <div class="item-header"><span class="name">Picanha Beef</span><span class="price">Q82</span></div>
+                    <p class="description">Picanha beef, french fries, mozza cheese and tomato sauce.</p>
+                </article>
+            </div>
 
             <h3>Burgers</h3>     
             <div class="grid-items">
-            
-                <header class="grid-description">
-                    <p class="description"><strong>Served on a house-made bun with pickles, lettuce, tomato and aioli and a side of french fries.</strong></p>
-                </header>
+                <div class="grid-description">
+                    <p>Served on a house-made bun with pickles, lettuce, tomato and aioli and a side of french fries.</p>
+                </div>
 
-            <article class="menu-item">
-                <div class="item-header">
-                    <span class="name">Beef Burger</span>
-                    <span class="price">Q69</span>
-                </div>
-                <div class="options-box">
-                <p class="description">House Made Grilled Beef Patty. <br><strong>Add Cheese +Q5</strong></p>
+                <article class="menu-item">
+                    <div class="item-header">
+                        <span class="name">Beef Burger</span>
+                        <span class="price">Q69</span>
+                    </div>
+                    <p class="description">House made grilled beef patty.</p>
+                    <span class="addon">+Q5 with cheese</span>
+                </article>
+                
+                <article class="menu-item">
+                    <div class="item-header">
+                        <span class="name">Chicken Burger</span>
+                        <span class="price">Q67</span>
+                    </div>
+                    <p class="description">Grilled chicken breast or deep-fried schnitzel.</p>
+                </article>
+                
+                <article class="menu-item">
+                    <div class="item-header">
+                        <span class="name">Falafel Burger</span>
+                        <span class="price">Q82</span>
+                    </div>
+                    <p class="description">Falafel patty, a blend of chickpeas, herbs & spices.</p>
+                </article>
             </div>
-            </article>
-            
-            <article class="menu-item">
-                <div class="item-header"><span class="name">Chicken Burger</span><span class="price">Q67</span></div>
-                <div class="options-box">
-                    <strong>Options</strong>
-                    <ul><li>Choose Grrilled Chicken Breast</li><li>Choose Deep-Fried Schnitzel.</li></ul>
-                    <p class="description">Juicy chicken breast served with fresh lettuce.</p>             
-                </div>
-            </article>
-            
-            <article class="menu-item">
-                <div class="item-header"><span class="name">Falafel Burger</span><span class="price">Q82</span></div>
-                <div class="options-box">
-                    <p class="description">Falafel Patty, a blend of chickpeas, herbs & spices.</p>              
-                </div>
-            </article>
-            
-            </div>
-
 
             <h3>On the Plate</h3>
             <div class="grid-items">
-            
-                <header class="grid-description">
-                    <p class="description"><strong>Choose your protein, served with a fresh arabic salad, a side of hummus, pita and your choice or rice or fries.</strong></p>
-                </header>
+                <div class="grid-description">
+                    <p>Choose your protein, served with a fresh arabic salad, a side of hummus, pita and your choice of rice or fries.</p>
+                </div>
                
                 <article class="menu-item">
                     <div class="item-header"><span class="name">Falafel Plate</span><span class="price">Q69</span></div>
@@ -248,467 +234,343 @@
                 <article class="menu-item">
                     <div class="item-header"><span class="name">Beef Doner Plate</span><span class="price">Q77</span></div>
                 </article>
-
-                </div>
+            </div>
             
-            
-                <h3>Specialties & Salads</h3>
- 
+            <h3>Specialties & Salads</h3>
             <div class="grid-items">
                 <article class="menu-item featured-item">
-                <div class="item-header"><span>Sabich</span><span class="price">Q60</span></div>
-                <p class="description">Pita Stuffed with eggplant, potato, boiled egg, salad and tahini, served with french fries.</p>
-            </article>
-            
-            <article class="menu-item">
-                <div class="item-header"><span class="name">Chopped Salad</span><span class="price">Q39</span></div>
-                <div class="options-box">
-                    <strong>Options</strong>
-                    <ul><li>Choose Grrilled Chicken Breast +Q20.</li><li>Choose Tuna Salad +Q20.</li></ul>
-                    <p class="description">Diced tomato, cucumber, red onion, carrot + lettuce, tossed with lime juice + olive oil & served with grilled baguette.</p>             
-                </div>
-            </article>   
-            
-            <article class="menu-item">
-                <div class="item-header"><span class="name">Greek Salad</span><span class="price">Q59</span></div>
-                <div class="options-box">
-                    <p class="description">Tomato, cucumber, onion, bell pepper, Kalamata olives + Feta Cheese.</p>              
-                </div>
-            </article>
-            
-        
-        </div>
-            
-            
+                    <div class="item-header"><span class="name">Sabich</span><span class="price">Q60</span></div>
+                    <p class="description">Pita stuffed with eggplant, potato, boiled egg, salad and tahini, served with french fries.</p>
+                </article>
+                
+                <article class="menu-item">
+                    <div class="item-header"><span class="name">Chopped Salad</span><span class="price">Q39</span></div>
+                    <p class="description">Diced tomato, cucumber, red onion, carrot & lettuce, tossed with lime juice & olive oil, served with grilled baguette.</p>
+                    <div class="options-box">
+                        <span class="tag">+Grilled chicken breast +Q20</span>
+                        <span class="tag">+Tuna salad +Q20</span>
+                    </div>
+                </article>   
+                
+                <article class="menu-item">
+                    <div class="item-header"><span class="name">Greek Salad</span><span class="price">Q59</span></div>
+                    <p class="description">Tomato, cucumber, onion, bell pepper, kalamata olives & feta cheese.</p>
+                </article>
+            </div>
             
             <h3>Snacks</h3>
-            
-            <article class="menu-item">
-                <div class="item-header"><span>French Fries</span><span class="price">Q32</span></div>
-                <div class="options-box secondary">
-                    <div class="tags"><span class="tag">With Cheese</span><span class="tag">No Cheese</span></div>
+            <div class="simple-list">
+                <div class="simple-item">
+                    <span>French Fries</span>
+                    <div><span class="price">Q32</span></div>
                 </div>
-            </article>
-            
-            <article class="menu-item">
-                <div class="item-header"><span>Potato Wedges</span><span class="price">Q40</span></div>
-            </article>
-            
-            <article class="menu-item">
-                <div class="item-header"><span>Panini</span><span class="price">Q30</span></div>
-                <div class="options-box secondary">
-                    <div class="tags"><span class="tag">Turkey Ham +Q10</span></div>
+                <div class="simple-item">
+                    <span>Potato Wedges</span>
+                    <div><span class="price">Q40</span></div>
                 </div>
-            </article>
-        
-        
+                <div class="simple-item">
+                    <span>Panini</span>
+                    <div><span class="price">Q30</span> <span class="addon">+Q10 Turkey Ham</span></div>
+                </div>
+            </div>
         </section>
 
         <section id="togo" class="category">
-            <h2 class="section-title">🏃‍♂️ TO GO <span class="time-badge">TO GO Only</span></h2>
-            <p class="description">Grab your lunch before heading to the caves or Semuc Champey!</p>
+            <h2 class="section-title">
+                <span>To Go</span>
+                <span class="time-badge">To Go Only</span>
+            </h2>
+            <p class="category-desc">Grab your lunch before heading to the caves or Semuc Champey!</p>
 
-            <h3>Sandwiches & More</h3>
+            <article class="menu-item combo-item">
+                <div class="item-header">
+                    <span class="name">Adventure Combo</span>
+                    <span class="price">Q40</span>
+                </div>
+                <p class="description">Any Sandwich or Panini + Soda or Juice.</p>
+                <span class="badge-promo">Best Value</span>
+            </article>
+
+            <h3>Sandwiches</h3>
             <div class="simple-list">
-                <div class="simple-item"><span>Pastrami Sandwich</span><span class="price">Q42</span></div>
-                <div class="simple-item"><span>Classic Burrito (Add Cheese +Q4)</span><span class="price">Q45</span></div>
-                <div class="simple-item"><span>Shakshuka (To Go Box)</span><span class="price">Q49</span></div>
-                <div class="simple-item"><span>Panini (Jam & Cheese / Turkey Ham +Q10)</span><span class="price">Q30</span></div>
-                <div class="simple-item"><span>Egg Sandwich</span><span class="price">Q35</span></div>
-                <div class="simple-item"><span>PB&J Sandwich</span><span class="price">Q32</span></div>
+                <div class="simple-item">
+                    <span>Pastrami Sandwich</span>
+                    <span class="price">Q42</span>
+                </div>
+                <div class="simple-item">
+                    <span>Classic Burrito</span>
+                    <span class="price">Q45</span>
+                </div>
+                <div class="simple-item">
+                    <span>Shakshuka (To Go Box)</span>
+                    <span class="price">Q49</span>
+                </div>
+                <div class="simple-item">
+                    <span>Panini</span>
+                    <span class="price">Q30</span>
+                </div>
+                <div class="simple-item">
+                    <span>Egg Sandwich</span>
+                    <span class="price">Q35</span>
+                </div>
+                <div class="simple-item">
+                    <span>PB&J Sandwich</span>
+                    <span class="price">Q32</span>
+                </div>
             </div>
 
-            <h3>Healthy Starts</h3>
-            <div class="simple-item"><span>Granola Bowl</span><span class="price">Q55</span></div>
-            <div class="simple-item"><span>Fresh Fruit Salad</span><span class="price">Q37</span></div>
+            <h3>Healthy Options</h3>
+            <div class="simple-list">
+                <div class="simple-item">
+                    <span>Granola Bowl</span>
+                    <span class="price">Q55</span>
+                </div>
+                <div class="simple-item">
+                    <span>Fresh Fruit Salad</span>
+                    <span class="price">Q37</span>
+                </div>
+            </div>
         </section>
 
-        <section id="drinks" class="category alcohol">
-            <h2 class="section-title">🍹 Drinks & Bar <span class="time-badge">All Day</span></h2>
+        <section id="drinks" class="category">
+            <h2 class="section-title">
+                <span>Drinks & Bar</span>
+                <span class="time-badge">All Day</span>
+            </h2>
+            
             <h3>Soft Drinks</h3>
             <div class="drink-box">
-                <div class="simple-item"><span>Hibiscus Flower / Lemonade</span><span class="price">Q20</span></div>
-                <div class="simple-item"><span>Lipton Tea (Lemon/Raspberry/Peach)</span><span class="price">Q15</span></div>
+                <div class="simple-item">
+                    <span>Hibiscus Flower / Lemonade</span>
+                    <span class="price">Q20</span>
+                </div>
+                <div class="simple-item">
+                    <span>Lipton Tea (Lemon/Raspberry/Peach)</span>
+                    <span class="price">Q15</span>
+                </div>
             </div>
             
             <h4>Sodas</h4>
             <div class="drink-box">
                 <div class="simple-item"><span>Pepsi Black</span><span class="price">Q15</span></div>
-                <div class="simple-item"><span>7up</span><span class="price">Q12</span></div>
-                <div class="simple-item"><span>CocaCola</span><span class="price">Q12</span></div>
-                <div class="simple-item"><span>CocaCola Zero</span><span class="price">Q15</span></div>
+                <div class="simple-item"><span>7Up</span><span class="price">Q12</span></div>
+                <div class="simple-item"><span>Coca-Cola</span><span class="price">Q12</span></div>
+                <div class="simple-item"><span>Coca-Cola Zero</span><span class="price">Q15</span></div>
                 <div class="simple-item"><span>Sparkling Water</span><span class="price">Q12</span></div>
                 <div class="simple-item"><span>Ginger Ale</span><span class="price">Q12</span></div>
-            </div>
-            
-            <h4>Gatorade</h4>
-            <div class="drink-box">
-                <div class="simple-item"><span>Gatorade (Grape / Orange / Fruit Punch)</span><span class="price">Q15</span></div>
-            </div>
-            
-            <h4>Electrolyte Drinks</h4>
-            <div class="drink-box">
+                <div class="simple-item"><span>Gatorade (Grape/Orange/Fruit Punch)</span><span class="price">Q15</span></div>
                 <div class="simple-item"><span>Hidravida Electrolyte Drink</span><span class="price">Q30</span></div>
+                <div class="simple-item"><span>Bottled Water</span><span class="price">Q12</span></div>
+                <div class="simple-item"><span>Del Valle Juices (Pear/Peach/Mango/Guava/Apple)</span><span class="price">Q12</span></div>
             </div>
             
-            <h4>Water</h4>
-            <div class="drink-box">
-                <div class="simple-item"><span>Bottle Water</span><span class="price">Q12</span></div>
-            </div>
-            
-            <h4>DelValle Juices</h4>
-            <div class="drink-box">
-                <div class="simple-item"><span>Del Valle Juices (Pear / Peach / Mango / Guava / Apple)</span><span class="price">Q12</span></div>
-            </div>
-            <h3>☕ Coffee & Espresso</h3>
-            <div class="drink-box">
-                <article class="menu-item featured-item">
+            <h3>Coffee & Espresso</h3>
+            <div class="drink-box featured-box">
+                <article class="menu-item featured-item coffee-highlight">
                     <div class="item-header">
                         <span class="name">Greengos House Coffee</span>
                         <span class="price">Q20</span>
                     </div>
-                    <p class="description">Nueve Aguas coffee since 1900, place Purulha, Baja Verapaz, altura 1200-1600msnm, perfil de taza con aroma a chocolate, sabor a manzana y toronja, acidez citrica, posgusto prolongado, cuerpo completo.</p>
-                    <div class="badge">Local Beans!</div>
+                    <p class="description">Nueve Aguas coffee since 1900, from Purulha, Baja Verapaz. Notes of chocolate, apple and grapefruit.</p>
+                    <span class="badge">Local Beans</span>
                 </article>
 
-                <div class="grid-items">
+                <div class="grid-items coffee-grid">
                     <article class="menu-item">
                         <div class="item-header"><span class="name">Espresso</span><span class="price">Q15</span></div>
-                        <p class="description">Single shot of pure intensity.</p>
                     </article>
-                    
                     <article class="menu-item">
                         <div class="item-header"><span class="name">Americano</span><span class="price">Q20</span></div>
-                        <p class="description">Espresso with hot water.</p>
                     </article>
-                    
                     <article class="menu-item">
                         <div class="item-header"><span class="name">Cappuccino</span><span class="price">Q27</span></div>
-                        <p class="description">Espresso, steamed milk, and foam.</p>
                     </article>
-                    
                     <article class="menu-item">
                         <div class="item-header"><span class="name">Latte</span><span class="price">Q27</span></div>
-                        <p class="description">Espresso with velvety steamed milk.</p>
                     </article>
-                    
                     <article class="menu-item">
                         <div class="item-header"><span class="name">Mocha</span><span class="price">Q30</span></div>
-                        <p class="description">Espresso, chocolate, and steamed milk.</p>
                     </article>
-                    
                     <article class="menu-item">
                         <div class="item-header"><span class="name">Flat White</span><span class="price">Q30</span></div>
-                        <p class="description">Double espresso with microfoam milk.</p>
+                    </article>
+                    <article class="menu-item">
+                        <div class="item-header"><span class="name">Iced Coffee</span><span class="price">Q22</span></div>
+                    </article>
+                    <article class="menu-item">
+                        <div class="item-header"><span class="name">Iced Latte</span><span class="price">Q28</span></div>
+                    </article>
+                    <article class="menu-item">
+                        <div class="item-header"><span class="name">Cold Brew</span><span class="price">Q25</span></div>
                     </article>
                 </div>
-            </div>
 
-<h4>☃️ Iced Coffee</h4>
-<div class="drink-box">
-    <div class="simple-item"><span>Iced Coffee</span><span class="price">Q22</span></div>
-    <div class="simple-item"><span>Iced Latte</span><span class="price">Q28</span></div>
-    <div class="simple-item"><span>Cold Brew</span><span class="price">Q25</span></div>
-    <div class="simple-item"><span>Iced Mocha</span><span class="price">Q32</span></div>
-</div>
-
-<h4>Our Drinks Menu</h4>
-<div class="drink-box">
-    <div class="grid-items">
-        <article class="menu-item drink-morenitto">
-            <div class="item-header">
-                <span class="name">Morenitto</span>
-                <span class="price">Q22</span>
-            </div>
-        </article>
-
-        <article class="menu-item drink-pbb">
-            <div class="item-header">
-                <span class="name">PBB Flat</span>
-                <span class="price">Q28</span>
-            </div>
-        </article>
-
-        <article class="menu-item drink-coffito">
-            <div class="item-header">
-                <span class="name">Coffito</span>
-                <span class="price">Q25</span>
-            </div>
-        </article>
-
-        <article class="menu-item drink-noa">
-            <div class="item-header">
-                <span class="name">NoaNoa</span>
-                <span class="price">Q32</span>
-            </div>
-        </article>
-    </div>
-    
-</div>
-
-
-<h3>Hot Drinks</h3>
-<div class="drink-box">
-    <div class="simple-item"><span>Hot Chocolate</span><span class="price">Q22</span></div>
-    <div class="simple-item"><span>Hot Chocolate with Marshmallows</span><span class="price">Q28</span></div>
-    <div class="simple-item"><span>Hot Chocolate with Whipped Cream</span><span class="price">Q25</span></div>
-    <div class="simple-item"><span>Hot Chocolate with Marshmallows and Whipped Cream</span><span class="price">Q32</span></div>
-</div>
-
-
-<div class="featured-box">
-    <h4>🌟 Customize Your Coffee</h4>
-    <p class="description"><strong>Make it yours:</strong></p>
-    <div class="tags">
-    
-        <span class="tag">Almond Milk +Q5</span>
-        <span class="tag">Soy Milk +Q5</span>
-        <span class="tag">Caramel +Q4</span>
-    </div>
-</div>
-
-            
-            <div class="featured-box">
-    <h4>🍓 Fresh Smoothies <span class="price">Q35</span></h4>
-    <div class="smoothie-grid">
-        <article class="menu-item">
-            <div class="item-header">
-                <span class="name">Bora Bora</span>
-            </div>
-            <p class="description">Watermelon, Melon, and fresh Orange Juice.</p>
-        </article>
-
-        <article class="menu-item">
-            <div class="item-header">
-                <span class="name">OverDose C</span>
-            </div>
-            <p class="description">Papaya, Strawberries, Pineapple, and Orange Juice.</p>
-        </article>
-
-        <article class="menu-item">
-            <div class="item-header">
-                <span class="name">Detox</span>
-            </div>
-            <p class="description">Carrot, Spinach, Pineapple, and Orange Juice.</p>
-        </article>
-    </div>
-</div>
-                
-                <h3>Signature Cocktails & Bar</h3>
-                <div class="drink-box">
-    <div class="grid-items">
-
-        <article class="menu-item cocktail-mero">
-            <div class="item-header">
-                <span class="name">EL MERO MERO</span>
-                <span class="price">Q50</span>
-            </div>
-            <p class="description">A unique house-made maceration of local peanuts (mani) and roasted cacao beans. Bold, nutty, and authentic.</p>
-            
-        </article>
-
-    <article class="menu-item cocktail-monkey">
-        <div class="item-header">
-            <span class="name">Funky Monkey</span>
-            <span class="price">Q50</span>
-        </div>
-        <p class="description">A smooth tropical dream. House-made banana syrup blended with milk and premium Dark Rum.</p>
-        
-    </article>
-
-    <article class="menu-item cocktail-cardamon">
-        <div class="item-header">
-            <span class="name">Cardamon Crush</span>
-            <span class="price">Q50</span>
-        </div>
-        <p class="description">Gin, tonic, and locally sourced cardamom with a slice of cucumber. Cool and botanical.</p>
-        
-    </article>
-
-    <article class="menu-item cocktail-coco">
-        <div class="item-header">
-            <span class="name">Coco Manglar</span>
-            <span class="price">Q50</span>
-        </div>
-        <p class="description">Coconut water, mango and white rum.</p>
-        
-    </article>
-
-    <article class="menu-item cocktail-selva">
-        <div class="item-header">
-            <span class="name">Selva Rosa</span>
-            <span class="price">Q50</span>
-        </div>
-        <p class="description">Gin, fresh watermelon, and coconut cream. Tropical bliss in a glass.</p>
-        
-    </article>
-    </div>
+                <div class="customize-box">
+                    <p class="customize-title">Customize your coffee</p>
+                    <span class="tag">Oat Milk +Q5</span>
+                    <span class="tag">Almond Milk +Q5</span>
+                    <span class="tag">Soy Milk +Q5</span>
+                    <span class="tag">Caramel +Q4</span>
                 </div>
-                   
-                
-                <header class="grid-description">
-                    <p class="description"><strong>Beers</strong></p>
-                </header>
-                <div class="drink-box">
+            </div>
+
+            <h3>Hot Drinks</h3>
+            <div class="drink-box">
+                <div class="simple-item"><span>Hot Chocolate</span><span class="price">Q22</span></div>
+            </div>
+
+            <h3>Fresh Smoothies <span class="price">Q35</span></h3>
+            <div class="grid-items smoothie-grid">
                 <article class="menu-item">
-                    <div class="item-header"><span class="name">Gallo</span><span class="price">Q25</span></div>
+                    <div class="item-header"><span class="name">Bora Bora</span></div>
+                    <p class="description">Watermelon, melon and fresh orange juice.</p>
                 </article>
-               
                 <article class="menu-item">
-                    <div class="item-header"><span class="name">Corona</span><span class="price">Q25</span></div>
+                    <div class="item-header"><span class="name">OverDose C</span></div>
+                    <p class="description">Papaya, strawberries, pineapple and orange juice.</p>
                 </article>
-              
                 <article class="menu-item">
-                    <div class="item-header"><span class="name">Modelo</span><span class="price">Q25</span></div>    
-                </article> 
-
-                <article class="menu-item">
-                    <div class="item-header"><span class="name">Modelo Dark</span><span class="price">Q25</span></div>
-                </article>  
-               
-                <article class="menu-item">
-                    <div class="item-header"><span class="name">Cabro</span><span class="price">Q25</span></div>
-                </article>  
-
-                <article class="menu-item">
-                    <div class="item-header"><span class="name">Busch Light</span><span class="price">Q12</span></div>
-                </article>  
-
-                <article class="menu-item">
-                    <div class="item-header"><span class="name">XXX Sol</span><span class="price">Q12</span></div>
-                </article>  
-
-                <article class="menu-item">
-                    <div class="item-header"><span class="name">Dorada Ice</span><span class="price">Q17</span></div>
+                    <div class="item-header"><span class="name">Detox</span></div>
+                    <p class="description">Carrot, spinach, pineapple and orange juice.</p>
                 </article>
-                </div>
-               
+            </div>
+
+            <h3>Signature Cocktails</h3>
+            <div class="grid-items cocktails-grid">
+                <article class="menu-item cocktail">
+                    <div class="item-header">
+                        <span class="name">El Mero Mero</span>
+                        <span class="price">Q45</span>
+                    </div>
+                    <p class="description">House-made maceration of local peanuts and roasted cacao beans. Bold, nutty and authentic.</p>
+                </article>
+
+                <article class="menu-item cocktail">
+                    <div class="item-header">
+                        <span class="name">Funky Monkey</span>
+                        <span class="price">Q45</span>
+                    </div>
+                    <p class="description">House-made banana syrup blended with milk and premium dark rum.</p>
+                </article>
+
+                <article class="menu-item cocktail">
+                    <div class="item-header">
+                        <span class="name">Cardamom Crush</span>
+                        <span class="price">Q45</span>
+                    </div>
+                    <p class="description">Gin, tonic and locally sourced cardamom with a slice of cucumber.</p>
+                </article>
+
+                <article class="menu-item cocktail">
+                    <div class="item-header">
+                        <span class="name">Coco Manglar</span>
+                        <span class="price">Q45</span>
+                    </div>
+                    <p class="description">Coconut water, mango and white rum.</p>
+                </article>
+
+                <article class="menu-item cocktail">
+                    <div class="item-header">
+                        <span class="name">Selva Rosa</span>
+                        <span class="price">Q45</span>
+                    </div>
+                    <p class="description">Gin, fresh watermelon and coconut cream. Tropical bliss.</p>
+                </article>
+            </div>
+
+            <h3>Beers</h3>
+            <div class="drink-box">
+                <div class="simple-item"><span>Gallo</span><span class="price">Q25</span></div>
+                <div class="simple-item"><span>Corona</span><span class="price">Q25</span></div>
+                <div class="simple-item"><span>Modelo</span><span class="price">Q25</span></div>
+                <div class="simple-item"><span>Modelo Dark</span><span class="price">Q25</span></div>
+                <div class="simple-item"><span>Cabro</span><span class="price">Q25</span></div>
+                <div class="simple-item"><span>Busch Light</span><span class="price">Q12</span></div>
+                <div class="simple-item"><span>XXX Sol</span><span class="price">Q12</span></div>
+                <div class="simple-item"><span>Dorada Ice</span><span class="price">Q17</span></div>
+            </div>
+
             <div class="happy-hour">
-                <h4>⚡ HAPPY HOUR for Beers and Mix Drinks(3pm/6pm)</h4>
-                <strong>Cans & Bottles Q18 / Mix Drinks Q20</strong>
+                <span class="happy-icon">⚡</span>
+                <h4>HAPPY HOUR</h4>
+                <p class="happy-time">15:00 - 18:00</p>
+                <p class="happy-deal">Beers & Bottles Q18 / Cocktails Q20</p>
             </div>
-        
-        <header class="grid-description">
-                    <p class="description"><strong>Craft Beers</strong></p>
-                </header>
-                <div class="drink-box">
-                <article class="menu-item">  
-                    <div class="item-header"><span class="name">Chelita Linda - Blonde Ale / ABV 5.1%</span><span class="price">Q35</span></div>
-                </article>
-               
-                <article class="menu-item">
-                    <div class="item-header"><span class="name">Dale Pale Ale - Tropical Pale Ale / ABV 5.6%</span><span class="price">Q35</span></div>
-                </article>
-              
-                <article class="menu-item">
-                    <div class="item-header"><span class="name">Impunidad - IPA / ABV 6.2%</span><span class="price">Q35</span></div>    
-                </article> 
 
-                <article class="menu-item">
-                    <div class="item-header"><span class="name">Pinchazo - Imperial Stout / ABV 8.2%</span><span class="price">Q35</span></div>
-                </article>
-                </div>
-            
+            <h3>Craft Beers</h3>
+            <div class="drink-box">
+                <div class="simple-item"><span>Chelita Linda - Blonde Ale / 5.1%</span><span class="price">Q35</span></div>
+                <div class="simple-item"><span>Dale Pale Ale - Tropical / 5.6%</span><span class="price">Q35</span></div>
+                <div class="simple-item"><span>Impunidad - IPA / 6.2%</span><span class="price">Q35</span></div>
+                <div class="simple-item"><span>Pinchazo - Imperial Stout / 8.2%</span><span class="price">Q35</span></div>
+            </div>
 
-                <header class="grid-description">
-                    <p class="description"><strong>ACE Cider</strong></p>
-                </header>
-                <div class="drink-box">
-                <article class="menu-item">
-                    <div class="item-header"><span class="name">Apple</span><span class="price">Q35</span></div>
-                </article>
+            <h3>ACE Cider</h3>
+            <div class="drink-box">
+                <div class="simple-item"><span>Apple</span><span class="price">Q35</span></div>
+                <div class="simple-item"><span>Guava</span><span class="price">Q35</span></div>
+                <div class="simple-item"><span>Mango</span><span class="price">Q35</span></div>
+                <div class="simple-item"><span>Berries</span><span class="price">Q35</span></div>
+            </div>
 
-                <article class="menu-item">
-                    <div class="item-header"><span class="name">Guava</span><span class="price">Q35</span></div>
-                </article>
-
-                <article class="menu-item">
-                    <div class="item-header"><span class="name">Mango</span><span class="price">Q35</span></div>
-                </article>
-
-                <article class="menu-item">
-                    <div class="item-header"><span class="name">Berries</span><span class="price">Q35</span></div>
-                </article>
-                </div>
-
-                <header class="grid-description">
-                    <p class="description"><strong>OFF-SHORE</strong></p>
-                </header>
-                <div class="drink-box">
-                <article class="menu-item">
-                    <div class="item-header"><span class="name">Maracuya</span><span class="price">Q30</span></div>
-                </article>
-               
-                <article class="menu-item">
-                    <div class="item-header"><span class="name">Lime</span><span class="price">Q30</span></div>
-                </article>
-              
-                <article class="menu-item">
-                    <div class="item-header"><span class="name">Berries</span><span class="price">Q30</span></div>    
-                </article> 
-
-                <article class="menu-item">
-                    <div class="item-header"><span class="name">Pineapple-Coco</span><span class="price">Q30</span></div>
-                </article>
-                </div>
-        
+            <h3>Off-Shore</h3>
+            <div class="drink-box">
+                <div class="simple-item"><span>Maracuya</span><span class="price">Q30</span></div>
+                <div class="simple-item"><span>Lime</span><span class="price">Q30</span></div>
+                <div class="simple-item"><span>Berries</span><span class="price">Q30</span></div>
+                <div class="simple-item"><span>Pineapple-Coco</span><span class="price">Q30</span></div>
+            </div>
         </section>
 
         <section id="desserts" class="category">
-            <h2 class="section-title">🍰 Desserts <span class="time-badge">All Day</span></h2>
+            <h2 class="section-title">
+                <span>Desserts</span>
+                <span class="time-badge">All Day</span>
+            </h2>
     
-    <article class="menu-item">
-        <div class="item-header"><span>Banutzza</span><span class="price">Q65</span></div>
-        <p class="description">Nutella pizza topped with fresh banana slices.</p>
-    </article>
+            <div class="grid-items desserts-grid">
+                <article class="menu-item featured-item">
+                    <div class="item-header"><span class="name">Banutzza</span><span class="price">Q65</span></div>
+                    <p class="description">Nutella pizza topped with fresh banana slices.</p>
+                </article>
 
-    <article class="menu-item">
-        <div class="item-header"><span>Jan Sweets</span><span class="price">Q35</span></div>
-        <p class="description">Mini donuts coated in sugar, topped with chocolate, caramel, and strawberry syrup. Served with a scoop of ice cream.</p>
-    </article>
+                <article class="menu-item">
+                    <div class="item-header"><span class="name">Jan Sweets</span><span class="price">Q35</span></div>
+                    <p class="description">Mini donuts coated in sugar, topped with chocolate, caramel and strawberry syrup. Served with a scoop of ice cream.</p>
+                </article>
 
-    <article class="menu-item">
-        <div class="item-header"><span>Hummustella</span><span class="price">Q45</span></div>
-        <p class="description">A creamy blend of Nutella and peanut butter, topped with chocolate. Served with warm pita bread.</p>
-    </article>
+                <article class="menu-item">
+                    <div class="item-header"><span class="name">Hummustella</span><span class="price">Q45</span></div>
+                    <p class="description">Creamy blend of Nutella and peanut butter, topped with chocolate. Served with warm pita bread.</p>
+                </article>
 
-    <article class="menu-item">
-        <div class="item-header"><span>Chocolate Balls</span><span class="price">Q25</span></div>
-        <p class="description">Homemade Chocolate Balls (The classic treat!).</p>
-    </article>
+                <article class="menu-item">
+                    <div class="item-header"><span class="name">Chocolate Balls</span><span class="price">Q25</span></div>
+                    <p class="description">Homemade chocolate balls. The classic treat!</p>
+                </article>
 
-    <article class="menu-item">
-        <div class="item-header"><span>Cheesecake</span><span class="price">Q40</span></div>
-        <div class="options-box">
-            <strong>Topping:</strong>
-            <ul><li>Chocolate</li><li>Strawberry</li><li>Caramel</li></ul>
-        </div>
-    </article>
+                <article class="menu-item">
+                    <div class="item-header"><span class="name">Cheesecake</span><span class="price">Q40</span></div>
+                    <div class="options-box">
+                        <span class="tag">Chocolate</span>
+                        <span class="tag">Strawberry</span>
+                        <span class="tag">Caramel</span>
+                    </div>
+                </article>
+            </div>
         </section>
     </main>
 
     <footer>
-    <div class="footer-content">
-        <p>Greengos Hostel • Semuc Champey, Guatemala</p>
-        
-        <div class="business-social">
-            <a href="https://www.instagram.com/greengoshotel/" target="_blank" class="insta-business">
-                📸 @greengoshotel
-            </a>
+        <div class="footer-content">
+            <p class="footer-brand">Greengos Hostel</p>
+            <p class="footer-location">Semuc Champey, Guatemala</p>
+            <a href="https://www.instagram.com/greengoshotel/" target="_blank" class="insta-link">@greengoshotel</a>
+            <div class="footer-divider"></div>
+            <p class="dev-credit">Digital Experience by <a href="https://www.instagram.com/jose_somarriba16/" target="_blank">@jose_somarriba16</a></p>
         </div>
+    </footer>
 
-        <hr class="footer-divider">
-
-        <div class="developer-credit">
-            <p>Digital Experience by</p>
-            <a href="https://www.instagram.com/jose_somarriba16/" target="_blank" class="dev-link">
-                @jose_somarriba16
-            </a>
-        </div>
-    </div>
-</footer>
-
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
-
