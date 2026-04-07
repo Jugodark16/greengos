@@ -708,6 +708,67 @@ body {
     transform: scale(1.1);
 }
 
+.cocktail-featured {
+    background: linear-gradient(135deg, #1a1a1a 0%, #0d0d0d 50%, #1a1a1a 100%);
+    border: 2px solid var(--accent-gold);
+    position: relative;
+    overflow: hidden;
+}
+
+.cocktail-featured::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(201, 162, 39, 0.1) 0%, transparent 50%);
+    animation: glow-pulse 3s ease-in-out infinite;
+}
+
+@keyframes glow-pulse {
+    0%, 100% { opacity: 0.5; transform: scale(1); }
+    50% { opacity: 1; transform: scale(1.1); }
+}
+
+.cocktail-featured .badge {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: linear-gradient(135deg, var(--accent-gold) 0%, #d4a82a 100%);
+    color: #1a1a1a;
+    font-size: 0.6rem;
+    font-weight: 700;
+    padding: 4px 10px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    z-index: 1;
+}
+
+.cocktail-featured .name {
+    color: var(--accent-gold);
+    font-size: 1.1rem;
+    text-shadow: 0 0 20px rgba(201, 162, 39, 0.3);
+}
+
+.cocktail-featured .price {
+    color: var(--accent-gold);
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-shadow: 0 0 10px rgba(201, 162, 39, 0.5);
+}
+
+.cocktail-featured .description {
+    color: rgba(255, 255, 255, 0.85);
+    font-style: italic;
+}
+
+.cocktail-featured:hover {
+    transform: translateY(-6px) scale(1.03);
+    box-shadow: 0 20px 50px rgba(201, 162, 39, 0.25), 0 0 30px rgba(201, 162, 39, 0.1);
+}
+
 .happy-hour {
     background: linear-gradient(135deg, #2d3436 0%, #1a1a1a 100%);
     color: var(--white);
